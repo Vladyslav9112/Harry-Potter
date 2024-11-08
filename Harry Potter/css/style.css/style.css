@@ -1,0 +1,124 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900&display=swap');
+@font-face {
+  font-family: 'Nunito__bold';
+  src: url('fonts/nunito-variablefont_wght-webfont.woff2') format('woff2'),
+    url('fonts/nunito-variablefont_wght-webfont.woff') format('woff');
+  font-weight: 800;
+  font-style: normal;
+}
+ul li {
+  list-style: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5dc;
+}
+
+.wrapper,
+.footer,
+.list {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  font-size: 23px;
+  padding-left: 40px;
+  max-width: 1600px;
+  font-family: 'Nunito';
+}
+.content__list {
+  list-style: none;
+}
+.header {
+  padding: 30px 0px;
+  position: relative;
+}
+
+.header__title {
+  margin-bottom: 15px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.header__about {
+  padding-top: 30px;
+}
+
+.content {
+  position: relative;
+}
+
+.content__img {
+  margin-bottom: 15px;
+}
+
+.content__list {
+  position: relative;
+}
+
+.content__list__items {
+  padding-bottom: 25px;
+}
+
+.content__list__item::before {
+  content: "";
+  position: absolute;
+  background-image: url(/img/free-icon-magic-wand-4233846.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 25px;
+  height: 19px;
+  top: 7px;
+  left: -35px;
+}
+
+.content__list__item {
+  margin-bottom: 7px;
+  position: relative;
+  margin-left: 15px;
+}
+.subtitle {
+  margin-bottom: 10px;
+  margin-top: 15px;
+  font-family: 'Nunito__bold';
+}
+.content__info {
+  margin-bottom: 30px;
+}
+
+.content__info__subtitle {
+  margin-bottom: 15px;
+}
+
+.content__info__text {
+  margin-bottom: 30px;
+}
+
+.footer {
+  margin-bottom: 50px;
+  position: relative;
+}
+
+.footer__list__items {
+}
+
+.footer__list__item {
+  margin-bottom: 7px;
+  position: relative;
+  margin-left: 15px;
+}
+
+.footer__list__item::before {
+  content: "";
+  position: absolute;
+  background-image: url(/img/free-icon-magic-wand-4233846.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 25px;
+  height: 19px;
+  top: 7px;
+  left: -35px;
+}
